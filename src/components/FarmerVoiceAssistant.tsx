@@ -1,4 +1,5 @@
 import { useState, useCallback, useRef, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import { useConversation } from "@elevenlabs/react";
 import { VoiceButton } from "./VoiceButton";
 import { VoiceWaveform } from "./VoiceWaveform";
@@ -7,14 +8,14 @@ import { QuickActionCard } from "./QuickActionCard";
 import { WeatherWidget } from "./WeatherWidget";
 import { AccessibilityToolbar } from "./AccessibilityToolbar";
 import { useToast } from "@/hooks/use-toast";
-import { 
-  Sprout, 
-  CloudRain, 
-  Bug, 
+import {
+  Sprout,
+  CloudRain,
+  Bug,
   Calendar,
   Leaf,
   Settings,
-  HelpCircle
+  UserCircle
 } from "lucide-react";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { cn } from "@/lib/utils";
@@ -55,6 +56,7 @@ const QUICK_PROMPTS = [
 ];
 
 export function FarmerVoiceAssistant() {
+  const navigate = useNavigate();
   const { toast } = useToast();
   const [messages, setMessages] = useState<Message[]>([]);
   const [isConnecting, setIsConnecting] = useState(false);
@@ -189,10 +191,11 @@ export function FarmerVoiceAssistant() {
             </div>
           </div>
           <button
-            aria-label="Help and settings"
+            onClick={() => navigate("/signin")}
+            aria-label="Sign in to your account"
             className="w-12 h-12 rounded-full bg-white/15 backdrop-blur-sm flex items-center justify-center hover:bg-white/25 transition-all duration-300 hover:scale-110 active:scale-95 focus:outline-none focus:ring-2 focus:ring-white/50"
           >
-            <HelpCircle className="w-6 h-6 text-white" aria-hidden="true" />
+            <UserCircle className="w-6 h-6 text-white" aria-hidden="true" />
           </button>
         </div>
 
