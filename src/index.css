@@ -8,72 +8,72 @@
 
 @layer base {
   :root {
-    /* Background: Warm cream with subtle gradient feel */
-    --background: 42 35% 97%;
-    --foreground: 145 35% 12%;
+    /* Background: Soft warm gray with elegance */
+    --background: 30 15% 96%;
+    --foreground: 215 30% 18%;
 
     /* Cards: Pure white for contrast */
     --card: 0 0% 100%;
-    --card-foreground: 145 35% 12%;
+    --card-foreground: 215 30% 18%;
 
     /* Popover */
     --popover: 0 0% 100%;
-    --popover-foreground: 145 35% 12%;
+    --popover-foreground: 215 30% 18%;
 
-    /* Primary: Rich Forest Green */
-    --primary: 145 55% 32%;
+    /* Primary: Deep Ocean Teal */
+    --primary: 188 85% 40%;
     --primary-foreground: 0 0% 100%;
 
-    /* Secondary: Warm Sand */
-    --secondary: 35 40% 92%;
-    --secondary-foreground: 35 50% 25%;
+    /* Secondary: Warm Coral Sunset */
+    --secondary: 12 88% 68%;
+    --secondary-foreground: 12 50% 20%;
 
-    /* Muted: Soft Sage */
-    --muted: 145 20% 93%;
-    --muted-foreground: 145 15% 40%;
+    /* Muted: Sophisticated Blue-Gray */
+    --muted: 215 20% 92%;
+    --muted-foreground: 215 18% 42%;
 
-    /* Accent: Vibrant Golden Sun */
-    --accent: 45 95% 55%;
-    --accent-foreground: 45 80% 12%;
+    /* Accent: Rich Amber Gold */
+    --accent: 32 95% 60%;
+    --accent-foreground: 32 80% 12%;
 
-    /* Destructive: Warm Red */
-    --destructive: 0 70% 50%;
+    /* Destructive: Vibrant Red */
+    --destructive: 0 72% 51%;
     --destructive-foreground: 0 0% 100%;
 
     /* Borders */
-    --border: 145 15% 88%;
-    --input: 145 15% 88%;
-    --ring: 145 55% 32%;
+    --border: 215 18% 86%;
+    --input: 215 18% 86%;
+    --ring: 188 85% 40%;
 
     --radius: 1.25rem;
 
-    /* Custom nature colors */
-    --sky: 200 80% 55%;
-    --soil: 25 55% 28%;
-    --leaf: 100 60% 42%;
-    --sunrise: 38 100% 58%;
+    /* Custom premium colors */
+    --ocean: 192 88% 45%;
+    --sunset: 15 90% 65%;
+    --sand: 38 60% 75%;
+    --lavender: 250 45% 58%;
 
-    /* Beautiful gradients */
-    --gradient-nature: linear-gradient(135deg, hsl(145 55% 32%) 0%, hsl(100 60% 42%) 100%);
-    --gradient-earth: linear-gradient(180deg, hsl(42 35% 97%) 0%, hsl(35 40% 94%) 100%);
-    --gradient-golden: linear-gradient(135deg, hsl(45 95% 55%) 0%, hsl(38 100% 58%) 100%);
-    --gradient-hero: linear-gradient(180deg, hsl(145 55% 32%) 0%, hsl(145 45% 25%) 100%);
+    /* Beautiful premium gradients */
+    --gradient-nature: linear-gradient(135deg, hsl(188 85% 40%) 0%, hsl(192 75% 52%) 100%);
+    --gradient-earth: linear-gradient(180deg, hsl(30 15% 96%) 0%, hsl(35 20% 92%) 100%);
+    --gradient-golden: linear-gradient(135deg, hsl(32 95% 60%) 0%, hsl(22 92% 62%) 100%);
+    --gradient-hero: linear-gradient(180deg, hsl(188 85% 40%) 0%, hsl(195 90% 32%) 100%);
 
-    /* Enhanced shadows */
-    --shadow-soft: 0 4px 24px -6px hsl(145 35% 12% / 0.08);
-    --shadow-elevated: 0 12px 40px -12px hsl(145 35% 12% / 0.15);
-    --shadow-glow: 0 0 50px hsl(145 55% 32% / 0.25);
-    --shadow-button: 0 8px 24px -4px hsl(145 55% 32% / 0.35);
+    /* Enhanced premium shadows */
+    --shadow-soft: 0 4px 24px -6px hsl(215 30% 18% / 0.09);
+    --shadow-elevated: 0 12px 40px -12px hsl(215 30% 18% / 0.18);
+    --shadow-glow: 0 0 50px hsl(188 85% 40% / 0.35);
+    --shadow-button: 0 8px 24px -4px hsl(188 85% 40% / 0.42);
 
     /* Sidebar */
-    --sidebar-background: 145 20% 98%;
-    --sidebar-foreground: 145 30% 20%;
-    --sidebar-primary: 145 55% 32%;
+    --sidebar-background: 215 20% 97%;
+    --sidebar-foreground: 215 30% 22%;
+    --sidebar-primary: 188 85% 40%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 145 15% 94%;
-    --sidebar-accent-foreground: 145 30% 20%;
-    --sidebar-border: 145 15% 90%;
-    --sidebar-ring: 145 55% 32%;
+    --sidebar-accent: 215 18% 93%;
+    --sidebar-accent-foreground: 215 30% 22%;
+    --sidebar-border: 215 18% 88%;
+    --sidebar-ring: 188 85% 40%;
   }
 
   /* High Contrast Mode */
@@ -113,42 +113,42 @@
   }
 
   .dark {
-    --background: 145 30% 6%;
-    --foreground: 40 25% 95%;
+    --background: 215 35% 8%;
+    --foreground: 30 20% 94%;
 
-    --card: 145 25% 10%;
-    --card-foreground: 40 25% 95%;
+    --card: 215 30% 12%;
+    --card-foreground: 30 20% 94%;
 
-    --popover: 145 25% 10%;
-    --popover-foreground: 40 25% 95%;
+    --popover: 215 30% 12%;
+    --popover-foreground: 30 20% 94%;
 
-    --primary: 145 60% 45%;
-    --primary-foreground: 145 30% 6%;
+    --primary: 188 75% 48%;
+    --primary-foreground: 215 35% 8%;
 
-    --secondary: 35 20% 18%;
-    --secondary-foreground: 35 25% 90%;
+    --secondary: 12 78% 62%;
+    --secondary-foreground: 12 50% 15%;
 
-    --muted: 145 15% 15%;
-    --muted-foreground: 145 10% 55%;
+    --muted: 215 18% 18%;
+    --muted-foreground: 215 12% 58%;
 
-    --accent: 45 85% 50%;
-    --accent-foreground: 45 80% 8%;
+    --accent: 32 90% 55%;
+    --accent-foreground: 32 80% 10%;
 
-    --destructive: 0 60% 45%;
+    --destructive: 0 65% 48%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 145 15% 18%;
-    --input: 145 15% 18%;
-    --ring: 145 60% 45%;
+    --border: 215 18% 20%;
+    --input: 215 18% 20%;
+    --ring: 188 75% 48%;
 
-    --sidebar-background: 145 25% 8%;
-    --sidebar-foreground: 145 10% 90%;
-    --sidebar-primary: 145 60% 45%;
-    --sidebar-primary-foreground: 145 30% 6%;
-    --sidebar-accent: 145 15% 12%;
-    --sidebar-accent-foreground: 145 10% 90%;
-    --sidebar-border: 145 15% 15%;
-    --sidebar-ring: 145 60% 45%;
+    --sidebar-background: 215 32% 10%;
+    --sidebar-foreground: 215 12% 88%;
+    --sidebar-primary: 188 75% 48%;
+    --sidebar-primary-foreground: 215 35% 8%;
+    --sidebar-accent: 215 20% 15%;
+    --sidebar-accent-foreground: 215 12% 88%;
+    --sidebar-border: 215 18% 18%;
+    --sidebar-ring: 188 75% 48%;
   }
 }
 
@@ -242,11 +242,11 @@
   @keyframes voice-pulse {
     0%, 100% {
       transform: scale(1);
-      box-shadow: 0 8px 24px -4px hsl(145 55% 32% / 0.35);
+      box-shadow: 0 8px 24px -4px hsl(188 85% 40% / 0.4);
     }
     50% {
       transform: scale(1.04);
-      box-shadow: 0 12px 40px -4px hsl(145 55% 32% / 0.5);
+      box-shadow: 0 12px 40px -4px hsl(188 85% 40% / 0.55);
     }
   }
 

@@ -126,7 +126,7 @@ export default function SignUp() {
 
   return (
     <div className="min-h-screen min-h-[100dvh] bg-gradient-earth flex flex-col overflow-x-hidden">
-      <header className="bg-gradient-to-br from-green-600 via-green-700 to-emerald-800 px-6 pt-8 pb-6 safe-area-top rounded-b-[2.5rem] shadow-2xl relative overflow-hidden">
+      <header className="bg-gradient-to-br from-cyan-600 via-teal-600 to-blue-700 px-6 pt-8 pb-6 safe-area-top rounded-b-[2.5rem] shadow-2xl relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0zNiAxOGMzLjMxIDAgNiAyLjY5IDYgNnMtMi42OSA2LTYgNi02LTIuNjktNi02IDIuNjktNiA2LTZ6IiBzdHJva2U9IiNmZmYiIHN0cm9rZS1vcGFjaXR5PSIuMSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9nPjwvc3ZnPg==')] opacity-10" />
 
         <div className="relative z-10 flex items-center gap-3">
@@ -411,7 +411,7 @@ export default function SignUp() {
           display: inline-flex;
           padding: 6px;
           border-radius: 8px;
-          background: linear-gradient(135deg, hsl(145 55% 32%) 0%, hsl(145 60% 42%) 100%);
+          background: linear-gradient(135deg, hsl(188 85% 40%) 0%, hsl(192 75% 52%) 100%);
           box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15),
                       inset 0 -2px 4px rgba(0, 0, 0, 0.2),
                       inset 0 2px 4px rgba(255, 255, 255, 0.3);

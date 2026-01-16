@@ -33,31 +33,31 @@ const QUICK_PROMPTS = [
     icon: CloudRain,
     title: "Weather",
     description: "Today's forecast",
-    color: "from-blue-400 to-blue-600",
-    bgColor: "bg-blue-50",
-    textColor: "text-blue-600"
+    color: "from-cyan-500 to-teal-600",
+    bgColor: "bg-cyan-50",
+    textColor: "text-cyan-600"
   },
   {
     icon: Bug,
     title: "Pest Help",
     description: "Control pests",
-    color: "from-red-400 to-orange-500",
-    bgColor: "bg-red-50",
-    textColor: "text-red-600"
+    color: "from-rose-400 to-orange-500",
+    bgColor: "bg-rose-50",
+    textColor: "text-rose-600"
   },
   {
     icon: Sprout,
     title: "Planting",
     description: "Best tips",
-    color: "from-green-400 to-green-600",
-    bgColor: "bg-green-50",
-    textColor: "text-green-600"
+    color: "from-teal-500 to-cyan-600",
+    bgColor: "bg-teal-50",
+    textColor: "text-teal-600"
   },
   {
     icon: Calendar,
     title: "Harvest",
     description: "Right timing",
-    color: "from-amber-400 to-orange-500",
+    color: "from-amber-500 to-orange-600",
     bgColor: "bg-amber-50",
     textColor: "text-amber-600"
   },
@@ -248,7 +248,7 @@ export function FarmerVoiceAssistant() {
       role="application"
       aria-label="Farm Voice Assistant"
     >
-      <header className="bg-gradient-to-br from-green-600 via-green-700 to-emerald-800 px-6 pt-8 pb-10 safe-area-top rounded-b-[2.5rem] shadow-2xl relative overflow-hidden">
+      <header className="bg-gradient-to-br from-cyan-600 via-teal-600 to-blue-700 px-6 pt-8 pb-10 safe-area-top rounded-b-[2.5rem] shadow-2xl relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0zNiAxOGMzLjMxIDAgNiAyLjY5IDYgNnMtMi42OSA2LTYgNi02LTIuNjktNi02IDIuNjktNiA2LTZ6IiBzdHJva2U9IiNmZmYiIHN0cm9rZS1vcGFjaXR5PSIuMSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9nPjwvc3ZnPg==')] opacity-10" />
 
         <div className="relative z-10 flex items-center justify-between mb-6">
